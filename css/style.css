@@ -33,6 +33,40 @@ body {
   width: 1200px;
   outline: 2px solid tomato;
 }
+.nav-list,
+.contact-list{
+  padding-left: 0;
+}
+
+.main-header,
+.nav-header{
+  display: flex;
+  align-items: center;
+}
+
+.nav-header,
+.nav-list,
+.contact-list{
+  display: flex;
+}
+.nav-list{
+ margin-left: 93px;
+}
+.contact-list{
+  margin-left: auto;
+}
+
+.nav-list .item,
+.contact-list .item{
+  margin-right: 50px;
+  
+}
+.nav-list .item:last-child{
+  margin-right: 0;
+}
+.contact-list .item:last-child{
+  margin-right: 0;
+}
 
 .hero {
   background-color: var(--hero-bkg-color);
@@ -109,6 +143,7 @@ body {
 }
 
 .logo {
+  
   color: #000000;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
@@ -116,10 +151,12 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-left: 35px;
 }
 .logoweb {
   color: var(--accent-color);
 }
+
 .nav-list-link{
   color: var(--tittle-color);
   text-decoration: none;
@@ -127,7 +164,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  
+   
 }
 .contact-list-link{
   color: var(--general-text-color);
@@ -137,7 +176,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
+
+
 .nav-list-link:hover,
 .nav-list-link:focus,
 .contact-list-link:hover,
