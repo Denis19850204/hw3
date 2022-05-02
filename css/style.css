@@ -11,7 +11,10 @@ h1,h2,h3,p,ul{
   margin-top: 0;
   margin-bottom: 0;
 }
-
+img{
+  max-width: 100%;
+  height: auto;
+}
 
 
 body {
@@ -74,10 +77,12 @@ body {
 }
 .list{
   display: flex;
-  /* justify-content: space-between; */
  }
  
 .item:not(:last-child){
+  margin-right: 30px;
+}
+.item-work:not(:last-child){
   margin-right: 30px;
 }
 
