@@ -11,6 +11,9 @@ h1,h2,h3,p,ul{
   margin-top: 0;
   margin-bottom: 0;
 }
+ul{
+  padding-inline-start: 0;
+}
 
 
 body {
@@ -27,16 +30,13 @@ body {
 .container{
   margin-left: auto;
   margin-right: auto;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 
-  width: 1200px;
+  width: 1230px;
   outline: 2px solid tomato;
 }
-.nav-list,
-.contact-list{
-  padding-left: 0;
-}
+
 
 .main-header,
 .nav-header{
@@ -73,6 +73,17 @@ body {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.list{
+  display: flex;
+}
+.item:not(:last-child){
+  margin-right: 30px;
+}
+.item-work,
+.team-item:not(:last-child){
+  margin-right: 30px;
+  
 }
 .benefits,
 .work{
