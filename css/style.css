@@ -74,21 +74,13 @@ body {
 }
 .list{
   display: flex;
-}
+  /* justify-content: space-between; */
+ }
+ 
 .item:not(:last-child){
   margin-right: 30px;
 }
-.item-work{
-  margin-right: 30px;
-}
 
-
-
-
-/* /* .team-item:not(:last-child){
-  margin-right: 30px; */
-   */
-}
 .benefits,
 .work{
   padding-top: 94px;
